@@ -5,14 +5,17 @@ import './index.css';
 // import ChangePass from './Acc-set/changepass';
 import reportWebVitals from './reportWebVitals';
 // import Sidebar from './Acc-set/sidebar';
-import Booking from './Acc-set/booking';
+// import Booking from './Acc-set/booking';
+import Bookings from './Acc-set/historybooking';
+import Historybooking from './Acc-set/historybooking';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Information /> */}
     {/* <Sidebar /> */}
     {/* <ChangePass /> */}
-    <Booking />
+    {/* <Booking /> */}
+    <Historybooking />
      
   </React.StrictMode>,
   document.getElementById('root')
