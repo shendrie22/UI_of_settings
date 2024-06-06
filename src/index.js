@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 // import Booking from './Acc-set/booking';
 import Bookings from './Acc-set/historybooking';
 import Historybooking from './Acc-set/historybooking';
+import UserDashboard from './Acc-set/userdashboar';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,7 +16,8 @@ ReactDOM.render(
     {/* <Sidebar /> */}
     {/* <ChangePass /> */}
     {/* <Booking /> */}
-    <Historybooking />
+    {/* <Historybooking /> */}
+    <UserDashboard />
      
   </React.StrictMode>,
   document.getElementById('root')
