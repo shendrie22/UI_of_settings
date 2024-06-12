@@ -6,9 +6,10 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Sidebar from './Acc-set/sidebar';
 // import Booking from './Acc-set/booking';
-import Bookings from './Acc-set/historybooking';
-import Historybooking from './Acc-set/historybooking';
-import UserDashboard from './Acc-set/userdashboar';
+// import Bookings from './Acc-set/historybooking';
+// import Historybooking from './Acc-set/historybooking';
+import UserFeedback from './Acc-set/userfeedback';
+// import UserDashboard from './Acc-set/userdashboar';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,7 +18,9 @@ ReactDOM.render(
     {/* <ChangePass /> */}
     {/* <Booking /> */}
     {/* <Historybooking /> */}
-    <UserDashboard />
+    <UserFeedback />
+    
+    {/* <UserDashboard /> */}
      
   </React.StrictMode>,
   document.getElementById('root')
