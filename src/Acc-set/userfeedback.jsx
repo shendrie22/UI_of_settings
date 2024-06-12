@@ -62,13 +62,13 @@ const UserFeedback = () => {
       case 'faqs':
         return (
           <div className="border rounded p-4 w-[110%] h-[500px]">
-            {/* Add FAQ content here */}
+            {/* for now blanko n=muna update nalang namin tokapag meron nang content */}
           </div>
         );
       case 'guidelines':
         return (
           <div className="border rounded p-4 w-[110%] h-[500px]">
-            {/* Add guidelines content here */}
+            {/* same din dito */}
           </div>
         );
       default:
